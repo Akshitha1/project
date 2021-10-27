@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>NITK WEBSITE</title>
+<link rel="stylesheet" href="css/contact.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+<nav class="nav">
+	<div class="kingster-logo  kingster-item-pdlr one-edge-shadow" style="">
+		<div class="kingster-logo-inner"> 
+		<img src="C:/Users/mech/Documents/project/image/c.png" alt="bottle" class="thumbnails  nitk-title-image" id="myButton">
+		</div>
+	</div>	
+</nav>
+<header>
+	    <div>
+			<ul>
+                <li class="active"><a href="website.html">Home</a></li>
+				<li><a href="#">Research</a></li>
+				<li><a href="#">People</a></li>
+				<li><a href="#">Scholarships Available</a></li>
+				<li><a href="C:\Users\mech\Documents\project\contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</header>
+	<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "website.html";
+    };
+</script>
+	
+
+
+<div style = "position:relative; left:80px; top:210px;" class="container">
+<h3>Contact Form</h3>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+	<option value="india">India</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+​
