@@ -299,7 +299,7 @@ block-aggregator {
 }
 
 #header #search-block-form .form-submit {
-  background: #000 url('../images/bg-button-search.png') no-repeat 50% 50%;
+  background: #000 url('./images/bg-button-search.png') no-repeat 50% 50%;
   border: 1px solid #000;	
   color: #666;
   cursor: pointer;
@@ -774,11 +774,11 @@ ul.contact-list li {
 }
 
 ul.contact-list li.phone {
-  background: url(../image/phone.png) no-repeat 0px 5px;
+  background: url(./image/phone.png) no-repeat 0px 5px;
 }
 
 ul.contact-list li.email {
-  background: url(../image/email.png) no-repeat 0px 5px;
+  background: url(./image/email.png) no-repeat 0px 5px;
 }
 
 ul.contact-list li span {
