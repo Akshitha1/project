@@ -143,7 +143,42 @@
 	
 		width: 100000px;
 	}
+.dropbtn {
+  background-color: #161a1d;
+  color: #afafaf;
+  padding: 16px;
+  font-size: 13px;
+    font-weight: bold;
+  border: none;
+}
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #afafaf;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #000000;}
+</style>
 </style>
 
 </head>
@@ -179,26 +214,31 @@
 				<div class="region region-menu-bar">
 					<div id="block-superfish-1" class="block block-superfish">
 						<div class="block-inner clearfix">
-							<h2 class="block-title element-invisible">Main Menu</h2>
+							<h2 class="block-title element-invisible">Main Menu</h2> 
 							<div class="block-content clearfix">
-							  <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-university sf-total-items-16 sf-parent-items-3 sf-single-items-13 superfish-processed sf-js-enabled">
-							  <li id="menu-239-1" class="first sf-depth-1 sf-no-children">
-							  <a href="./index.html" class="sf-depth-1">Home</a></li><li id="menu-988-1" class="middle sf-depth-1 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent">
-							  <a href="./research.html" title="Programmes" id="programmes" class="sf-depth-1 menuparent sf-with-ul">Research</a>
-							 </li><li id="menu-989-1" class="middle sf-depth-1 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent">
-							  <a href="./Scholarship.html" title="Courses" id="courses" class="sf-depth-1 menuparent sf-with-ul">Scholarship Available</a>
-							  </li><li id="menu-994-1" class="middle sf-depth-1 sf-no-children">
-							  <a href="./people.html" title="Facilities" id="facilities" class="sf-depth-1">People</a></li><li id="menu-991-1" class="middle sf-depth-1 sf-no-children">
-							  <li id="menu-1106-1" class="middle sf-depth-1 sf-no-children"><a href="./gallery.html" class="sf-depth-1">Gallery</a></li>
-							  <li id="menu-995-1" class="middle sf-depth-1 sf-no-children">
-							  <a href="./contact-us-0.html" class="sf-depth-1">Contact Us</a></li></ul>  
+								<ul id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-university sf-total-items-16 sf-parent-items-3 sf-single-items-13 superfish-processed sf-js-enabled">
+								<li id="menu-239-1" class="first sf-depth-1 sf-no-children">
+								<a href="./index.html" class="sf-depth-1">Home</a></li><li id="menu-988-1" class="middle sf-depth-1 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent">
+								<a href="./research.html" title="Programmes" id="programmes" class="sf-depth-1 menuparent sf-with-ul">Research</a>
+								</li><li id="menu-989-1" class="middle sf-depth-1 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent">
+								<a href="./Scholarship.html" title="Courses" id="courses" class="sf-depth-1 menuparent sf-with-ul">Scholarship Available</a>
+								</li><li id="menu-994-1" class="middle sf-depth-1 sf-no-children">
+								<div class="dropdown">
+								<button class="dropbtn">People</button>
+								<div class="dropdown-content">
+								<a href="./people.html">Academic Staff</a>
+								<a href="#">Research Scholar </a>
+								</div>
+								</div>
+								<li id="menu-1106-1" class="middle sf-depth-1 sf-no-children"><a href="./gallery.html" class="sf-depth-1">Gallery</a></li>
+								<li id="menu-995-1" class="middle sf-depth-1 sf-no-children">
+								<a href="./contact-us-0.html" class="sf-depth-1">Contact Us</a></li></ul>    </div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-    </div>
     <!-- /#MAIN NAV -->
   
     
