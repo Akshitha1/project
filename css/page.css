@@ -288,6 +288,7 @@ body.front #main-content .region-content {
 #panel-fourth-wrapper {
   background: #0d1116;
   color: #666;
+  position:fixed;
 }
 
 #panel-fourth-wrapper .container{
